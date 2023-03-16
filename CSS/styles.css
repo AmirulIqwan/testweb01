@@ -1,0 +1,262 @@
+body
+{
+    color: black;
+    margin: 0;
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 120%;
+    /*font-family: 'Rubik Mono One', sans-serif;*/
+    overflow-x: hidden;
+    
+}
+
+h1{
+    color: black;
+    font-size: 5.625rem
+    margin: 50px auto 0 auto;
+    font-family: 'Tilt Warp', cursive;
+
+}
+    
+h2
+{
+    color: #66BFBF; 
+    font-size: 2.5rem
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3
+{
+    color: #11999E;
+    font-family: 'Tilt Warp', cursive;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted rgb(152, 152, 152) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: #fafafa;
+    font-family: 'Tilt Warp';
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b0b0b0;
+}
+ 
+.top-container
+{
+    background-color: #fafafa;
+    position: relative;
+    /*padding-top: 100px;*/
+}
+
+.top-container-about
+{
+    background-color: white;
+    position: relative;
+    padding-top: 50px;
+}
+
+.middle-container
+{
+    margin: 100px 0;
+}
+
+.bottom-container
+{
+    background-color: black;
+    padding: 50px 0 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 80px;
+    bottom: 300;
+}
+
+.boycomputer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.game-design{
+    /*width: 25%;*/
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.modeling{
+    /*width: 25%;*/
+    float: right;
+    margin-left: 30px;;
+}
+
+.game-design-description{
+    clear: left;
+}
+
+.modeling-description{
+    clear: right;
+}
+
+.profile-description{
+    width: 40%;
+    margin: auto;
+}
+
+.contact-description{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #1d1f21);
+    background-image: -moz-linear-gradient(top, #000000, #1d1f21);
+    background-image: -ms-linear-gradient(top, #000000, #1d1f21);
+    background-image: -o-linear-gradient(top, #000000, #1d1f21);
+    background-image: linear-gradient(to bottom, #000000, #1d1f21);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: 'Tilt Warp';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e0e0e0;
+    background-image: -webkit-linear-gradient(top, #e0e0e0, #d6d6d6);
+    background-image: -moz-linear-gradient(top, #e0e0e0, #d6d6d6);
+    background-image: -ms-linear-gradient(top, #e0e0e0, #d6d6d6);
+    background-image: -o-linear-gradient(top, #e0e0e0, #d6d6d6);
+    background-image: linear-gradient(to bottom, #e0e0e0, #d6d6d6);
+    text-decoration: none;
+  }
+
+  .footer-copyrightname{
+    color: #fafafa;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+
+  .about-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-name{
+    color: #000000;
+    margin-left: 20px;
+    text-align: left;
+    
+  }
+
+  .about-description{
+    width: 75%;
+    margin: auto;
+    padding: 30px 0 100px 0;
+    text-align: left;
+  }
+
+  .about-home-button{
+    margin: auto;
+    display: inline-block;
+
+  }
+
+  .top-container-about{
+    text-align: left;
+    padding-top: 0%;
+  }
+
+  .profile-pic-about{
+    float: left;
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-top: 50px;
+  }
+
+  .section-link{
+    color: black;
+    font-family: 'Tilt Warp';
+    font-size: 25px;
+    margin: 30px 100px;
+    text-decoration: none;
+  }
+
+  .marquee{
+    width: 80%;
+    background-color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    }
+    
+    .marquee div{
+    font-size: 1.6rem;
+    font-family: 'Tilt Warp';
+    animation: animate 20s linear infinite;
+    padding-left: 130%;
+    display: inline-block;
+    }
+    
+    @keyframes animate{
+    100%{
+    transform: translate(-100%, 0);
+    }
+    }
+
+    .marquee-home{
+    width: 80%;
+    background-color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    }
+
+    .marquee-home div{
+        font-size: 1.6rem;
+        font-family: 'Tilt Warp';
+        animation: animate-home 20s linear infinite;
+        padding-left: 130%;
+        display: inline-block;
+    }
+
+    @keyframes animate-home{
+        100%{
+        transform: translate(-100%, 0);
+        }
+    }
+
+
+    
